@@ -1,5 +1,6 @@
 <?php
-$string="Python Python";
+function replace($string){
     $string=str_replace("Python","PHP",$string);
-    echo $string;
+    return $string;
+}
 ?>

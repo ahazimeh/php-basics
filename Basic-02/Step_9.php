@@ -1,4 +1,5 @@
 <?php
-$num = 16;
-echo sqrt($num);
+function Msqrt($num){
+    return sqrt($num);
+}
 ?>
